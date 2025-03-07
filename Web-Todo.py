@@ -5,7 +5,7 @@ import functions
 # Read existing todos
 todos = functions.read_files()
 
-# Function to add a new todo
+# Function to add a new
 def add_todo():
     new_todo = st.session_state["todoIn"].strip() + "\n"  # Keep newline for correct formatting
     if new_todo.strip():  # Avoid adding empty todos
